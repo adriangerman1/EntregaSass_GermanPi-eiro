@@ -1,0 +1,302 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+$colorFondo: rgb(47, 168, 168);
+$colorBorde:rgb(0, 255, 179);
+
+
+.navbar-light{
+
+background-color: aqua !important;
+
+}
+
+.box1{
+
+    // width: 100%;
+    // height: 500px;
+    background-color: $colorFondo;
+
+    
+}
+
+.box1 img{
+
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid $colorBorde;
+    border-radius: 10px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.box1 img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+
+}
+
+.box2{
+
+    // width: 100%;
+    // height: 500px;
+    background-color: $colorFondo;
+    
+   
+}
+
+.box2 img{
+
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid $colorBorde;
+    border-radius: 10px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.box2 img:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+
+}
+
+.box3{
+
+    // width: 100%;
+    // height: 500px;
+    background-color: $colorFondo;
+
+}
+
+.box3 iframe{
+
+    width: 100%;
+    height: 650px;
+    border: 2px solid $colorBorde;
+    border-radius: 30px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.box3 iframe:hover{
+
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+
+}
+
+// -------------------------footer------------------------------------
+
+footer{
+
+    background-color: $colorFondo;
+
+}
+
+.face {
+
+    text-align: center;
+
+}
+
+.tiw {
+
+    text-align: center;
+
+}
+
+.inst {
+
+    text-align: center;
+
+}
+
+.logos {
+
+
+    color: black;
+    font-size: 60px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.logos:hover {
+
+    color: rgba(25, 25, 221, 0.863);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+h2{
+
+    background-color: aqua;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+p{
+
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+//-----------------------------------nosotros-------------------------------
+
+.boxNos1{
+
+    background-color: $colorFondo;
+
+}
+
+.boxNos1 img {
+
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid $colorBorde;
+    border-radius: 10px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.boxNos1 img:hover{
+
+    -webkit-transform: perspective(150px) rotateX(3deg);
+    transform: perspective(150px) rotateX(3deg);
+
+}
+
+.boxNos2{
+
+overflow: auto;
+background-color: $colorFondo;
+
+}
+
+.boxNos3{
+
+    overflow: auto;
+    background-color: $colorFondo;
+
+}
+
+.boxNos4{
+
+    background-color: $colorFondo;
+
+
+}
+
+.boxNos4 img{
+
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid $colorBorde;
+    border-radius: 10px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.boxNos4 img:hover{
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+// -------------------------------Productos-----------------------
+
+.boxPro1{
+
+    background-color: $colorFondo;
+
+}
+
+.boxPro1 img{
+
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+
+    border: 2px solid $colorBorde;
+    border-radius: 70px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.boxPro1 img:hover{
+
+    -webkit-transform: perspective(100px) rotateY(1deg);
+    transform: perspective(100px) rotateY(1deg);
+
+}
+
+.boxPro2{
+    background-color: $colorFondo;
+}
+
+.boxPro2 img{
+
+    width: 100%;
+    object-fit: contain;
+
+    border: 2px solid $colorBorde;
+    border-radius: 70px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.boxPro2 img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(4deg);
+    transform: perspective(150px) rotateY(4deg);
+
+}
+
+.boxPro3{
+    background-color: $colorFondo;
+}
+
+.boxPro3 img{
+
+    width: 100%;
+    height:580px;
+    object-fit: cover;
+
+    border: 2px solid $colorBorde;
+    border-radius: 70px;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.boxPro3 img:hover{
+
+    -webkit-transform: perspective(150px) rotateY(-4deg);
+    transform: perspective(150px) rotateY(-4deg);
+}

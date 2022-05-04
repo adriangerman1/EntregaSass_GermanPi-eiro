@@ -1,0 +1,218 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-light {
+  background-color: aqua !important;
+}
+
+.box1 {
+  background-color: #2fa8a8;
+}
+
+.box1 img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 10px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box1 img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.box2 {
+  background-color: #2fa8a8;
+}
+
+.box2 img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 10px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box2 img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.box3 {
+  background-color: #2fa8a8;
+}
+
+.box3 iframe {
+  width: 100%;
+  height: 650px;
+  border: 2px solid #00ffb3;
+  border-radius: 30px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.box3 iframe:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+footer {
+  background-color: #2fa8a8;
+}
+
+.face {
+  text-align: center;
+}
+
+.tiw {
+  text-align: center;
+}
+
+.inst {
+  text-align: center;
+}
+
+.logos {
+  color: black;
+  font-size: 60px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.logos:hover {
+  color: rgba(25, 25, 221, 0.863);
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+
+h2 {
+  background-color: aqua;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+p {
+  font-size: 20;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.boxNos1 {
+  background-color: #2fa8a8;
+}
+
+.boxNos1 img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 10px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.boxNos1 img:hover {
+  -webkit-transform: perspective(150px) rotateX(3deg);
+  transform: perspective(150px) rotateX(3deg);
+}
+
+.boxNos2 {
+  overflow: auto;
+  background-color: #2fa8a8;
+}
+
+.boxNos3 {
+  overflow: auto;
+  background-color: #2fa8a8;
+}
+
+.boxNos4 {
+  background-color: #2fa8a8;
+}
+
+.boxNos4 img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 10px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.boxNos4 img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.boxPro1 {
+  background-color: #2fa8a8;
+}
+
+.boxPro1 img {
+  width: 100%;
+  height: 1000px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 70px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.boxPro1 img:hover {
+  -webkit-transform: perspective(100px) rotateY(1deg);
+  transform: perspective(100px) rotateY(1deg);
+}
+
+.boxPro2 {
+  background-color: #2fa8a8;
+}
+
+.boxPro2 img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 2px solid #00ffb3;
+  border-radius: 70px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.boxPro2 img:hover {
+  -webkit-transform: perspective(150px) rotateY(4deg);
+  transform: perspective(150px) rotateY(4deg);
+}
+
+.boxPro3 {
+  background-color: #2fa8a8;
+}
+
+.boxPro3 img {
+  width: 100%;
+  height: 580px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #00ffb3;
+  border-radius: 70px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.boxPro3 img:hover {
+  -webkit-transform: perspective(150px) rotateY(-4deg);
+  transform: perspective(150px) rotateY(-4deg);
+}
+/*# sourceMappingURL=estilos.css.map */
